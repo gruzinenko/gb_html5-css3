@@ -1,0 +1,67 @@
+.card {
+    height: 425px;
+    width: 293px;
+}
+
+.one {
+    position: relative;
+    background-image: url(../img/10_of_spades.png);
+    background-size: cover;
+    z-index: 1
+}
+
+.one:hover {
+    z-index: 6
+}
+
+.two {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-image: url(../img/jack_of_spades2.png);
+    background-size: cover;
+    z-index: 2
+}
+
+.two:hover {
+    z-index: 6
+}
+
+.three {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-image: url(../img/queen_of_spades2.png);
+    background-size: cover;
+    z-index: 3
+}
+
+.three:hover {
+    z-index: 6
+}
+
+.four {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    background-image: url(../img/king_of_spades2.png);
+    background-size: cover;
+    z-index: 4
+}
+
+.four:hover {
+    z-index: 6
+}
+
+.five {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    background-image: url(../img/ace_of_spades.png);
+    background-size:cover;
+    z-index: 5
+}
+
+.five:hover {
+    z-index: 6
+}
