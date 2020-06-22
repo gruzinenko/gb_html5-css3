@@ -1773,5 +1773,9 @@ button:hover {
     .footer {
         flex-direction: column;
     }
+    
+    .left-footer{
+        justify-content: center;
+    }
 
 }
