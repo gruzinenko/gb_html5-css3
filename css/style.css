@@ -1561,7 +1561,7 @@ button:hover {
     .mob-menu-btn {
         display: flex;
         align-items: center;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 30px;
         width: 26px;
@@ -1649,6 +1649,10 @@ button:hover {
     .project-desc {
         width: 100%;
     }
+    
+    .projects-filter{
+        width: 100%;
+    }
 
     .projects-btn-link {
         left: 110px;
@@ -1692,7 +1696,7 @@ button:hover {
 
     .mobile-desc {
         margin: 20px 15px 30px 15px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .mobile-list {
