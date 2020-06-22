@@ -1641,6 +1641,9 @@ button:hover {
         padding: 10px 20px;
         margin-bottom: 10px;
     }
+    .projects {
+        width: 100%;
+    }
 
     .projects-heading {
         padding-top: 10px
@@ -1648,6 +1651,7 @@ button:hover {
 
     .project-desc {
         width: 100%;
+        flex-wrap: wrap;
     }
     
     .projects-filter{
