@@ -1651,11 +1651,12 @@ button:hover {
 
     .project-desc {
         width: 100%;
-        flex-wrap: wrap;
+        
     }
     
     .projects-filter{
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .projects-btn-link {
@@ -1776,6 +1777,7 @@ button:hover {
     
     .left-footer{
         justify-content: center;
+        align-items: center;
     }
 
 }
